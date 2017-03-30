@@ -1,0 +1,178 @@
+@import url('http://fonts.googleapis.com/css?family=Merienda:400,700');
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+
+
+
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+.slideshow{
+	position:relative;
+	height:65px; 
+	top:30px;
+	left: 0;
+	right: 0;
+	color: #118C4E;
+	background: #C1E1A6;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  overflow: hidden;
+	font-family: 'Alegreya', sans-serif;
+}
+
+.info {
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px;
+	height: 900px; 
+	width: 80%;
+	margin: 7% 5% 0 10%;
+}
+.one-fourth {
+	
+	margin: 0;
+	padding: 0;
+	
+	
+}
+.one-fourth ul{
+	margin: 0;
+	padding: 0;
+list-style-type: none;
+position: relative;
+float: left;
+display: inline-block;
+left: 50%;
+}
+
+.one-fourth ul li{
+	float: left;
+	display: inline-block;
+	right: 50%;
+	padding: 2%;
+	position: relative;
+	
+	
+	
+}
+#html{
+
+	height: 128px;
+	width: 128px;
+	
+}
+#js {
+	height: 128px;
+	width: 128px;
+}
+#css {
+	
+	height: 128px;
+	width: 128px;
+}
+#ang{
+	height: 128px;
+	width: 128px;
+
+}
+
+
+
+
+
+.text1,.text2,.text3,.text4,.text5{
+	
+	text-align: center;
+	margin: 0 50% 0 0;
+	padding: 0 ;
+	position: absolute;
+  	display: inline;
+	top: 0;
+	width: 50%;
+  	font-size: 50px;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+.text1{
+	animation-name: anim-1;
+}
+.text2{
+	animation-name: anim-2;
+}
+.text3{
+	animation-name: anim-3;
+}
+.text4{
+	animation-name: anim-4;
+}
+.text5{
+	animation-name: anim-5;
+}
+
+
+
+@keyframes anim-1 {
+	0%, 5% { left: -100%; opacity: 0; }
+  8%,22% { left: 25%; opacity: 1; }
+  25%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 25% { left: -100%; opacity: 0; }
+  28%, 42% { left: 25%; opacity: 1; }
+  45%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 45% { left: -100%; opacity: 0; }
+  48%, 62% { left: 25%; opacity: 1; }
+  65%,100% { left: 110%; opacity: 0; }
+}
+@keyframes anim-4 {
+	0%, 65% { left: -100%; opacity: 0; }
+  68%, 82% { left: 25%; opacity: 1; }
+  85%,100% { left: 110%; opacity: 0; }
+}
+@keyframes anim-5 {
+	0%, 85% { left: -100%; opacity: 0; }
+  86%, 97% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+body {
+	background: url(../img/rain_background_022.jpg);
+	height: 100%;
+	background-color: #F6F6F6;
+	font-family: 'Merienda', sans-serif;
+	font-size: 18px;
+	
+
+}
+h1 {
+	font-family: 'Alegreya', sans-serif;
+	color :orange;
+}
+footer{
+
+	height: 30px;
+	width: 100%;
+	padding: 1% 0 1% 0;
+	bottom: 0;
+	left: 0;
+	position:fixed;
+	background-color: #2B2B2B;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer .contrib
+{
+	
+}
+footer a {
+	text-decoration: none;
+	color :orange;
+}
+footer .contrib a:hover {
+	color: white;
+}
